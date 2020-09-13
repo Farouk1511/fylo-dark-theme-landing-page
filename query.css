@@ -1,0 +1,124 @@
+@media only screen and (max-width: 1200px) {
+  .right h1 {
+    width: 100%;
+  }
+  .early-access {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  header {
+    padding: 20px;
+  }
+  .intro h1 {
+    width: 100%;
+  }
+  .intro p {
+    width: 80%;
+  }
+  .intro .btn {
+    width: auto;
+  }
+  .productive {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .user img {
+    width: 40px;
+  }
+  .testimonials {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .test-box {
+    width: 80%;
+    margin-bottom: 40px;
+    padding: 30px;
+    font-size: 90%;
+  }
+  .early-access {
+    width: 90%;
+    left: 5%;
+  }
+  .main-footer {
+    font-size: 80%;
+  }
+  .links ul {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header nav ul li {
+    margin-right: 10px;
+  }
+
+  .intro img,
+  .productive img {
+    width: 100%;
+  }
+
+  .features-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 130%;
+  }
+  .features-box {
+    margin-bottom: 30px;
+  }
+  .features-box img {
+    width: 20%;
+  }
+
+  .right {
+    margin: 0 auto;
+    font-size: 90%;
+  }
+  .right p {
+    width: 100%;
+  }
+  .early-access {
+    padding: 10px;
+    font-size: 80%;
+    top: -30%;
+  }
+  .sign-up .btn {
+    font-size: 90%;
+    display: block;
+    width: 100%;
+  }
+
+  .sign-up input {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .links ul:last-of-type {
+    margin: 0 auto;
+  }
+  .links ul:first-child {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 30px;
+    padding-top: 150px;
+  }
+  .main-footer {
+    font-size: 100%;
+  }
+}
